@@ -18,7 +18,8 @@ The structure of the proposed method consists of two main sections. The left sec
 
 # How to Run Model
 * pip install requirements.txt
-* python load_model.py
+* cd train
+* python train_GAN.py
   
 
 
