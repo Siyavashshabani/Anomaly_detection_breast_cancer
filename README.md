@@ -3,11 +3,12 @@ Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 
 This dataset comprises 410 mammograms across 115 cases, including bilateral images from 95 cancer-diagnosed patients, thus capturing a wide array of breast disease manifestations, such as calcifications, masses, distortions, and asymmetries. The dataset provides images in both craniocaudal (CC) and mediolateral oblique (MLO) views and categorizes breast density according to the BI-RADS assessment into four levels, from entirely fat to extremely dense. 
 
+![Dataset Images] (https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/dataset.png)
 
 # Model Architecture
 The autoencoder architecture consists of an encoder with four downsampling blocks, each comprising a 5x5 convolutional layer, Leaky ReLU activation, and batch normalization, followed by two dense layers. The decoder mirrors the encoder, with two dense layers, four upsampling blocks using transpose convolution, and additional convolutional layers to reconstruct the original image, aimed at minimizing reconstruction loss for normal image mapping.
 
-![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/diagram.png)
+![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 
 
 # Structure  
