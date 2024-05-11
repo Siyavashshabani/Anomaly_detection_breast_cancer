@@ -12,4 +12,6 @@ Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 Encoder-Decoder
 
 # How to Run Model
-python run main.py
+* pip install requirements.txt
+* python load_model.py
+  
