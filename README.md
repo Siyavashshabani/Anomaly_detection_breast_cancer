@@ -13,7 +13,7 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 
 ![Train Image](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/raw/main/train.png)
 
-
+Structure of Training and Testing Processes. In the upper section, the diffusion model is trained using a collection of both unhealthy and healthy images. In the lower section, after training, an unhealthy image is passed through the diffusion model, producing a corresponding healthy image. By subtracting the input (unhealthy image) from the output (healthy image), the tumor sections are highlighted.
 
 # Model Architecture
 The structure of the proposed method consists of two main sections. The left section includes encoder and decoder blocks for transforming data into a low-dimensional space, while the central section is dedicated to the core diffusion model.
