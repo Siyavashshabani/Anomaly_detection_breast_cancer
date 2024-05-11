@@ -1,18 +1,16 @@
-
-
-![Train Image](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/raw/main/train.png)
-
-Structure of Training and Testing Processes. In the upper section, the diffusion model is trained using a collection of both unhealthy and healthy images. In the lower section, after training, an unhealthy image is passed through the diffusion model, producing a corresponding healthy image. By subtracting the input (unhealthy image) from the output (healthy image), the tumor sections are highlighted.
-
-# Model Architecture
-The structure of the proposed method consists of two main sections. The left section includes encoder and decoder blocks for transforming data into a low-dimensional space, while the central section is dedicated to the core diffusion model.
-
-![Method Image](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/raw/main/method.png)
-
 # Dataset
 Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 
-This dataset comprises 410 mammograms across 115 cases, including bilateral images from 95 cancer-diagnosed patients, thus capturing a wide array of breast disease manifestations, such as calcifications, masses, distortions, and asymmetries. The dataset provides images in both craniocaudal (CC) and mediolateral oblique (MLO) views and categorizes breast density according to the BI-RADS assessment into four levels, from entirely fat to extremely dense. 
+This dataset comprises 410 mammograms across 115 cases, including bilateral images from 95 cancer-diagnosed patients, thus capturing a wide array of breast disease manifestations, such as calcifications, masses, distortions, and asymmetries. The dataset provides images in both craniocaudal (CC) and mediolateral oblique (MLO) views and categorizes breast density according to the BI-RADS assessment into four levels, from entirely fat to extremely dense. The samples of normal and abnormal patches that has been used in train and test, respectively are given below.
+
+![Dataset Images](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/dataset.png)
+
+
+# Model Architecture
+The autoencoder architecture consists of an encoder with four downsampling blocks, each comprising a 5x5 convolutional layer, Leaky ReLU activation, and batch normalization, followed by two dense layers. The decoder mirrors the encoder, with two dense layers, four upsampling blocks using transpose convolution, and additional convolutional layers to reconstruct the original image, aimed at minimizing reconstruction loss for normal image mapping.
+
+![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
+
 
 # Structure  
 |-- Data  
