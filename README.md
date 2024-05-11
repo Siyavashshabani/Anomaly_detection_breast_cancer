@@ -5,7 +5,7 @@ Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 |-- Data  
 |--- Abnormal  
 |--- Normal  
-|----- Train  
-|----- Test  
+ |----- Train  
+ |----- Test  
 
 # How to Run Model
