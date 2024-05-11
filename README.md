@@ -11,6 +11,10 @@ The autoencoder architecture consists of an encoder with four downsampling block
 
 ![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 
+# Data preprocessing
+
+You can find the data preprocessing code [here](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/preprocessing/preprocessing_Inbreast.ipynb).
+
 
 # Structure  
 |-- Data  
