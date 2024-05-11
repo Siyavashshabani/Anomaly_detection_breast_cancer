@@ -5,7 +5,7 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 
 
 # Model Architecture
-The structure of the proposed method consists of two main sections. The left section includes encoder and decoder blocks for transforming data into a low-dimensional space, while the central section is dedicated to the core diffusion model.
+The autoencoder architecture consists of an encoder with four downsampling blocks, each comprising a 5x5 convolutional layer, Leaky ReLU activation, and batch normalization, followed by two dense layers. The decoder mirrors the encoder, with two dense layers, four upsampling blocks using transpose convolution, and additional convolutional layers to reconstruct the original image, aimed at minimizing reconstruction loss for normal image mapping.
 
 ![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/diagram.png)
 
