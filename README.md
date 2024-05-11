@@ -3,7 +3,7 @@ Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 
 # Structure  
 |-- Data  
-|   |-- Abnormal  
+|||-- Abnormal  
 |   |-- Normal  
 |       |-- Train  
 |       |-- Test  
