@@ -1,0 +1,9 @@
+numpy==1.26.4
+Pillow==5.3.0
+# pkg-resources==0.0.0
+six==1.11.0
+torch==1.7.1
+torchvision==0.8.2
+imageio
+scipy
+matplotlib==3.8.4

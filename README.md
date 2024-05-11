@@ -1,0 +1,1 @@
+How to run the code: python train.py --model AE

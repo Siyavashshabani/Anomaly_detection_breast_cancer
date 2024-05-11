@@ -1,0 +1,6 @@
+AE_env/
+data/
+datasets/
+raw_data/
+results/
+saved_models/
