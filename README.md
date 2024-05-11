@@ -11,7 +11,8 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 &nbsp;&nbsp;&nbsp;&nbsp;--Test  
 
 
-![Method Image]([https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/raw/main/method.png](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/train.png)
+![Train Image](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/raw/main/train.png)
+
 
 
 # Model Architecture
