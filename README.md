@@ -7,7 +7,7 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 # Model Architecture
 The structure of the proposed method consists of two main sections. The left section includes encoder and decoder blocks for transforming data into a low-dimensional space, while the central section is dedicated to the core diffusion model.
 
-![Method Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/method_diagram.png)
+![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/diagram.png)
 
 
 # Structure  
