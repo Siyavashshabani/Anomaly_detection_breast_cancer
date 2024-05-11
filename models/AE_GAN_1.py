@@ -8,10 +8,10 @@ import torch.optim as optim
 
 import sys
 sys.path.append('../')
-from architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder, Encoder, Decoder, Encoder_maxpool, Encoder_384, Decoder_384
-from datasets import MNIST, EMNIST, FashionMNIST
-from dataloaders import create_data_loaders
-from architectures import Discriminator_shallow
+from utils.architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder, Encoder, Decoder, Encoder_maxpool, Encoder_384, Decoder_384
+from dataloaders.datasets import MNIST, EMNIST, FashionMNIST
+from dataloaders.dataloaders import create_data_loaders
+from utils.architectures import Discriminator_shallow
 
 
 

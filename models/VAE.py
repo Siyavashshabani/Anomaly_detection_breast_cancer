@@ -5,8 +5,8 @@ from torch.nn import functional as F
 
 import sys
 sys.path.append('../')
-from architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder
-from datasets import MNIST, EMNIST, FashionMNIST
+from utils.architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder
+from dataloaders.datasets import MNIST, EMNIST, FashionMNIST
 
 class Network(nn.Module):
     def __init__(self, args):

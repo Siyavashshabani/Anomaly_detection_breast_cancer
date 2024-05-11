@@ -15,8 +15,8 @@ from models.AE_GAN import AE_GAN
 
 from models.AE_head import AE_head
 import matplotlib.pyplot as plt 
-from utils import get_interpolations
-from utils import loss_plot, plots
+from utils.utils import get_interpolations
+from utils.utils import loss_plot, plots
 import random
 
 import argparse, os, sys
@@ -36,10 +36,10 @@ from models.AE_GAN import AE_GAN
 
 from models.AE_head import AE_head
 import matplotlib.pyplot as plt 
-from utils import get_interpolations
-from utils import loss_plot, plots
+from utils.utils import get_interpolations
+from utils.utils import loss_plot, plots
 import random
-from dataloaders import create_data_loaders
+from dataloaders.dataloaders import create_data_loaders
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
 

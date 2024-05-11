@@ -7,9 +7,9 @@ from torchvision import datasets, transforms
 
 import sys
 sys.path.append('../')
-from architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder, Encoder, Decoder, Encoder_maxpool
-from datasets import MNIST, EMNIST, FashionMNIST
-from dataloaders import create_data_loaders
+from utils.architectures import FC_Encoder, FC_Decoder, CNN_Encoder, CNN_Decoder, Encoder, Decoder, Encoder_maxpool
+from dataloaders.datasets import MNIST, EMNIST, FashionMNIST
+from dataloaders.dataloaders import create_data_loaders
 
 
 class Network(nn.Module):
