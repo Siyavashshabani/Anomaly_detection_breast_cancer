@@ -1,7 +1,7 @@
 # Dataset
 Download data from: https://www.kaggle.com/datasets/tommyngx/inbreast2012
 
-This dataset comprises 410 mammograms across 115 cases, including bilateral images from 95 cancer-diagnosed patients, thus capturing a wide array of breast disease manifestations, such as calcifications, masses, distortions, and asymmetries. The dataset provides images in both craniocaudal (CC) and mediolateral oblique (MLO) views and categorizes breast density according to the BI-RADS assessment into four levels, from entirely fat to extremely dense. The samples of normal and abnormal patches that has been used in train and test, respectively are given below.
+This dataset comprises 410 mammograms across 116 cases, including bilateral images from 95 cancer-diagnosed patients, thus capturing a wide array of breast disease manifestations, such as calcifications, masses, distortions, and asymmetries. The dataset provides images in both craniocaudal (CC) and mediolateral oblique (MLO) views and categorizes breast density according to the BI-RADS assessment into four levels, from entirely fat to extremely dense. The samples of normal and abnormal patches that has been used in train and test, respectively are given below.
 
 ![Dataset Images](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/dataset.png)
 
