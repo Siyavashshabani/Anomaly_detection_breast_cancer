@@ -44,12 +44,16 @@ To run the model, follow these steps:
 3. **Execute the Training Script**: Run the training script `train_GAN.py` to start the training process for the Generative Adversarial Network (GAN) model:
 
     ```
-    python train_GAN.py
+    python train_GAN.py --model AE_GAN
     ```
 
     Make sure to adjust any parameters or configurations in the `train_GAN.py` script according to your requirements before running it.
 
 Ensure that you have a suitable Python environment set up and configured before proceeding with the steps above.
+
+## Results
+In this section, the reconstruction error for one abnormal patch has been presened:
+![result](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 
 
 
