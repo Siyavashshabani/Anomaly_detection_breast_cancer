@@ -12,7 +12,7 @@ The autoencoder architecture consists of an encoder and decoder with four fully 
 
 ![Diagram](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 # GAN
-Thre proposed GAN network consists of a generator( Autoeocoder) and discriminator: 
+The proposed GAN network consists of a generator(Autoencoder ) and discriminator: 
 ![Diagram_gan](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/GAN_diagram.png)
 
 # Structure  
@@ -55,7 +55,7 @@ To run the model, follow these steps:
 Ensure that you have a suitable Python environment set up and configured before proceeding with the steps above.
 
 ## Results
-In this section, the reconstruction error for one abnormal patch has been presened:
+In this section, the reconstruction error for one abnormal patch is presented:
 ![result](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/result_img.png)
 
 
