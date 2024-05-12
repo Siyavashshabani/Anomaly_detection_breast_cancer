@@ -9,7 +9,7 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 # Model Architecture
 The autoencoder architecture consists of an encoder with four downsampling blocks, each comprising a 5x5 convolutional layer, Leaky ReLU activation, and batch normalization, followed by two dense layers. The decoder mirrors the encoder, with two dense layers, four upsampling blocks using transpose convolution, and additional convolutional layers to reconstruct the original image, aimed at minimizing reconstruction loss for normal image mapping.
 
-![Diagram](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
+![Diagram](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 
 
 # Structure  
@@ -53,7 +53,7 @@ Ensure that you have a suitable Python environment set up and configured before 
 
 ## Results
 In this section, the reconstruction error for one abnormal patch has been presened:
-![result](https://github.com/sohaibcs1/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
+![result](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/result_img.png)
 
 
 
