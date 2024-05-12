@@ -7,10 +7,13 @@ This dataset comprises 410 mammograms across 115 cases, including bilateral imag
 
 
 # Model Architecture
-The autoencoder architecture consists of an encoder with four downsampling blocks, each comprising a 5x5 convolutional layer, Leaky ReLU activation, and batch normalization, followed by two dense layers. The decoder mirrors the encoder, with two dense layers, four upsampling blocks using transpose convolution, and additional convolutional layers to reconstruct the original image, aimed at minimizing reconstruction loss for normal image mapping.
+# Autoencoder 
+The autoencoder architecture consists of an encoder and decoder with four fully connceted layers. 
 
 ![Diagram](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
-
+# GAN
+Thre proposed GAN network consists of a generator( Autoeocoder) and discriminator: 
+![Diagram_gan](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 
 # Structure  
 |-- Data  
