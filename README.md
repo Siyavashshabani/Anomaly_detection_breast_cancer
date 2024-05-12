@@ -13,7 +13,7 @@ The autoencoder architecture consists of an encoder and decoder with four fully 
 ![Diagram](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
 # GAN
 Thre proposed GAN network consists of a generator( Autoeocoder) and discriminator: 
-![Diagram_gan](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/diagram.png)
+![Diagram_gan](https://github.com/Siyavashshabani/Anomaly_detection_breast_cancer/blob/main/images/GAN_diagram.png)
 
 # Structure  
 |-- Data  
