@@ -17,8 +17,8 @@ The proposed GAN network consists of a generator(Autoencoder ) and discriminator
 
 # Structure  
 |-- Data  
-|&nbsp;--- Abnormal  
-|&nbsp;--- Normal  
+|&nbsp;----- Abnormal  
+|&nbsp;----- Normal  
 &nbsp;&nbsp;&nbsp;&nbsp;--Train  
 &nbsp;&nbsp;&nbsp;&nbsp;--Test  
 
